@@ -1,31 +1,27 @@
-import React from 'react';
+import React from "react";
 
-import Panel from '../../Panel';
+import { Panel } from "components";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
 const ProfilePanel: React.FC = () => {
   return (
     <Panel>
       <Container>
         <div className="profile-cover"></div>
-        <img
-          src="https://github.com/guilhermerodz.png"
-          alt="Avatar"
-          className="profile-picture"
-        />
-        <h1>Guilherme Rodz</h1>
-        <h2>Software Engineer @ Rocketseat</h2>
+        <img src="/profile.svg" alt="Avatar" className="profile-picture" />
+        <h1>Gabriel Alcântara</h1>
+        <h2>Software Development</h2>
 
         <div className="separator"></div>
 
         <div className="key-value">
-          <span className="key">Quem viu seu perfil</span>
-          <span className="value">1.558</span>
+          <span className="key">Who viewed your profile</span>
+          <span className="value">4.128</span>
         </div>
         <div className="key-value">
-          <span className="key">Viram sua publicação</span>
-          <span className="value">388</span>
+          <span className="key">Views of your post</span>
+          <span className="value">897</span>
         </div>
       </Container>
     </Panel>
