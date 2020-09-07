@@ -1,14 +1,21 @@
-import React from 'react';
+import React from "react";
 
-import TrendingPanel from './TrendingPanel';
+import TrendingPanel from "./TrendingPanel";
 
-import { Container } from './styles';
+import { Container } from "./styles";
+import { LoadingTrendingPanel } from "components/Shimmer";
 
-const RightColumn: React.FC = () => {
+const RightColumn: React.FC<LoadingProps> = ({ isLoading }) => {
   return (
     <Container className="right-column">
-      <TrendingPanel />
-      <TrendingPanel />
+      {isLoading ? (
+        <LoadingTrendingPanel />
+      ) : (
+        <>
+          <TrendingPanel title="Linkedin News" type="news" />
+          <TrendingPanel title="Today's trending courses" type="trending" />
+        </>
+      )}
     </Container>
   );
 };
