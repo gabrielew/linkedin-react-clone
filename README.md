@@ -5,7 +5,7 @@
 <p align="left">
   <a href="https://twitter.com/intent/user?screen_name=Gabriel75056738" target="_blank">
     <img
-      src="https://img.shields.io/twitter/follow/Gabriel75056738?label=Follow%20Gabriel%20Alcantara&style=social"
+      src="https://img.shields.io/badge/-@gabrielew-6633cc?style=flat-square&labelColor=6633cc&logo=twitter&logoColor=white&link=https://twitter.com/Gabriel75056738"
       alt="Follow @gabriel"
     />
   </a>
