@@ -11,7 +11,7 @@
   </a>
 </p>
 
-Clone of the Linkedin web application developed with [Rocketseat](https://www.youtube.com/watch?v=bJVp_vlvMwQ).
+Clone of the Linkedin web application developed with [Rocketseat](https://www.youtube.com/watch?v=-ZV-_7vNRGw).
 
 ## Features
 
